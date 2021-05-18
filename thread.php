@@ -22,12 +22,7 @@
                 {
                     $title = $row['thread_title'];
                     $desc = $row['thread_desc'];
-                    $noResult = false;
-                    // $thread_user_id = $row['tthread_user_id']; 
-                    // $sql2 = "SELECT `user_email` from `users` WHERE `users`.`sno`='$thread_user_id'";
-                    // $result2 = mysqli_query($conn, $sql2);
-                    // $posted_by = $row['user_email'];
-                    
+                    $noResult = false;                 
                 }
                 ?>
     <!-- category container starts here -->
@@ -40,8 +35,6 @@
                         : forums
                     </h2>
                     <p><?php echo $desc; ?> </p>
-                    <p>posted by: <b> Ashis Bhowmik</b></p>
-
                 </div>
             </div>
         </div>
